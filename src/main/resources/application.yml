@@ -1,0 +1,12 @@
+server.port: 8090
+
+logging:
+  root: DEBUG
+  level:
+    com: DEBUG
+    org: DEBUG
+  pattern:
+    console: "[%d{mm:ss}] %-35.35logger{0}: %m%n"
+
+spring:
+  main.lazy-initialization: true
